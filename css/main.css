@@ -1,8 +1,5 @@
 html {
   font-family: Georgia, serif;
-  font-style: bold;
-  background-color: #495562;
-  color: #fff;
 }
 
 img {
@@ -18,4 +15,22 @@ img {
   color: #495562;
   border-color: #efefef;
   background-color: #efefef;
+}
+
+.content-text {
+  background-color: #495562;
+  color: #fff;
+}
+
+@media only screen and (max-width: 38em) {
+
+  header {
+    position: relative;
+  }
+
+  .content-text {
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, 0.9));
+  }
 }
