@@ -1,0 +1,21 @@
+html {
+  font-family: Georgia, serif;
+  font-style: bold;
+  background-color: #495562;
+  color: #fff;
+}
+
+img {
+  max-height: 500px;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+.btn-ghost:hover {
+  color: #495562;
+  border-color: #efefef;
+  background-color: #efefef;
+}
