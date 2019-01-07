@@ -1,5 +1,7 @@
 html {
   font-family: Georgia, serif;
+  background-color: #495562;
+  color: #fff;
 }
 
 img {
@@ -17,20 +19,22 @@ img {
   background-color: #efefef;
 }
 
-.content-text {
-  background-color: #495562;
-  color: #fff;
-}
-
 @media only screen and (max-width: 38em) {
+
+  html {
+    background-color: transparent;
+  }
 
   header {
     position: relative;
   }
 
+  .btn-ghost {
+    border-color: #fff;
+  }
+
   .content-text {
-    width: 100%;
     position: absolute;
-    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, 0.9));
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .6));
   }
 }
