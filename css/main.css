@@ -21,6 +21,15 @@ img {
 
 @media only screen and (min-width: 38em) {
 
+  .btn-ghost {
+    position: absolute;
+    right: 12px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
   html {
     background-color: transparent;
   }
@@ -31,10 +40,12 @@ img {
 
   .btn-ghost {
     border-color: #fff;
+    color: #fff;
   }
 
   .content-text {
     position: absolute;
     background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .6));
   }
+
 }
